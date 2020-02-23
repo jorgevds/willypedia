@@ -1,0 +1,144 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.background {
+  background-color: whitesmoke;
+  z-index: 0;
+}
+
+header, footer {
+  background-color: #FF9200;
+  display: inline-block;
+  width: 100%;
+  color: white;
+  text-align: center;
+}
+
+header, footer a {
+  color: white;
+}
+
+#title {
+  font: 50px/1.3 'Arizonia', Helvetica, sans-serif;
+  letter-spacing: 2px;
+  text-shadow: 4px 4px 0px rgba(0, 0, 0, 0.1);
+}
+
+.container {
+  display: flex;
+  height: 80vh;
+  background-color: rgb(255, 250, 243);
+  margin: 20;
+  padding: 50;
+  align-items: center;
+}
+
+a.links {
+  color: #FF9200;
+  font-style: italic;
+  text-decoration: none;
+  font: 200 1.2em 'Arizonia', Helvetica, sans-serif;
+  padding: 3;
+}
+
+.info {
+  font-size: 30px;
+  font-size: 3.5vw 3.5vh;
+  padding: 40;
+  line-height: 1.3;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  box-shadow: 3px 3px 10px;
+}
+
+.headings {
+  font: 500 2.5em 'Arizonia', Helvetica, sans-serif;
+  letter-spacing: 4px;
+  margin-left: 50;
+  padding-top: 20px;
+  margin-bottom: 0;
+  display: block;
+  text-align: left;
+  color: #FF9200;
+}
+
+.bio, .pro, .prize, .literatuur {
+  margin: 15 20;
+  background-color: rgb(255, 250, 243);
+}
+
+.list {
+  display: block;
+  list-style: none;
+  border-radius: 30px;
+  margin: auto;
+  padding-bottom: 50;
+}
+
+.list li {
+  text-align: left;
+  line-height: 2;
+}
+
+.olist {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: stretch;
+  margin: 0;
+  padding-bottom: 50;
+}
+
+.olist li {
+  text-align: left;
+  line-height: 2;
+  padding: 0 5;
+}
+
+#usqlinks li {
+  line-height: 2.5;
+}
+
+footer {
+  padding: 20 0;
+  margin: 0;
+  font-size: 1.1em;
+  letter-spacing: 1px;
+}
+
+.navbar-ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: hsl(36, 100%, 55%);
+  overflow: hidden;
+}
+
+.navbar li {
+  display: inline;
+}
+
+.navbar-ul a {
+  float: left;
+  padding: 10;
+  text-decoration: none;
+  color: white;
+}
+
+nav a:hover {
+  background-color: hsl(36, 100%, 40%);
+}
+
+@media only screen and (max-width: 700px) {
+  .list li {
+    line-height: 3;
+    font-size: .8em;
+  }
+  .headings {
+    text-align: center;
+  }
+}
